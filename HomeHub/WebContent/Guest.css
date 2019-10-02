@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+#homehub {
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#submit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #87C23F;
+	width: 200px;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.form-checkbox {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: inline-block;
+	position: relative;
+	background-color: #f1f1f1;
+	color: #666;
+	top: 10px;
+	height: 30px;
+	width: 30px;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-right: 7px;
+	outline: none;
+}
+
+.form-checkbox:checked::before {
+	position: absolute;
+	font: 13px/1 'Open Sans', sans-serif;
+	left: 11px;
+	top: 7px;
+	content: '\02143';
+	transform: rotate(40deg);
+}
+
+.form-checkbox:hover {
+	background-color: #f7f7f7;
+}
+
+.form-checkbox:checked {
+	background-color: #87C23F;
+}
+
+html {
+	font: 40px/1 'Open Sans', sans-serif;
+}
+
+#box {
+	color: white;
+	background: grey;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+	font: 13px/1 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+#guest {
+	margin-left: auto;
+	font-family: 'Titillium Web', sans-serif;
+	margin-right: auto;
+	font-size: 25px;
+	box-sizing: border-box;
+	margin: 20px;
+}
+
+.header {
+font-family: 'Titillium Web', sans-serif;	background-color: #87C23F;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.select {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 15px;
+	width: 30%;
+}
+
+.select select {
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+	padding: 10px 15px;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: #e6e6e6;
+	color: #7b7b7b;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.select select::-ms-expand {
+	display: none;
+}
+
+.select select:hover, .select select:focus {
+	color: #000;
+	background: #ccc;
+}
+
+.select select:disabled {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.select__arrow {
+	position: absolute;
+	top: 32px;
+	right: 15px;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+	border-style: solid;
+	border-width: 8px 5px 0 5px;
+	border-color: #7b7b7b transparent transparent transparent;
+}
+
+.select select:hover ~ .select__arrow, .select select:focus ~
+	.select__arrow {
+	border-top-color: #000;
+}
+
+.select select:disabled ~ .select__arrow {
+	border-top-color: #ccc;
+}
+
+#numbers {
+	font-size: 10px;
+	width: 100%;
+}
+
+#users {
+	font-size: 22px;
+}
+
+#guestForm {
+	font-size: 20px;
+}
+
+#checks {
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 170%;
+	width: 300px;
+	text-align: left;
+}

@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+#homehublogo
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+#internal
+{
+	padding:15px;
+	width:70%;
+	    margin-left: auto;
+    margin-right: auto;
+        font-weight: normal;
+    
+}
+
+h2
+{
+	    font-weight: normal;
+	
+}
+.header {
+font-family: 'Titillium Web', sans-serif;	
+background-color: #FAB016;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 20px;
+	box-sizing: border-box;
+	width: 100%;
+	font-size:24px;
+}
+#register
+{
+
+	
+		color: white;
+	background: grey;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+	font: 13px/1 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+
+h1
+{
+	     font: 40px/1 'Open Sans', sans-serif;
+	
+}
+.form__submit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	width: 200px;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	height: 50px;
+	cursor: pointer;
+  background: #FAB016;
+  font-color:white;
+}
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #FAB016;
+}
+label
+{
+     font: 300 16px/1.7 'Open Sans', sans-serif;
+     color: white;
+     cursor: pointer;
+} 
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 225px;
+  height: 370px;
+  border-radius: 2px;
+  background: rgba(238, 238, 238, 0.9);
+}
+
+::placeholder
+{
+	color:white;
+	font-size:18;
+}
+
+.form__input {
+	color:white;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 20px;
+  width: 300px;
+  font-size: 11px;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #FAB016;
+  background: transparent;
+}
+fieldset {
+  border: none;
+}
+.form-checkbox
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 3px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-checkbox:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-checkbox:hover
+{
+     background-color: #f7f7f7;
+}
+.form-checkbox:checked
+{
+     background-color: #FAB016;
+}
+
+
+select {
+	margin: 0 auto;
+	color: #FAB016;
+	width: 310px;
+	padding: 15px;
+	height: 25px;
+	cursor: pointer;
+	background: url(http://sharpik.com/wip/cuteselect/arrow.png) 295px 12px no-repeat white;
+}
+
+
+
+select option {
+	background-color: white;
+	color: gray;
+	width: 310px;
+	padding: 10px 15px;
+	height: 20px;
+	cursor: pointer;
+}
+
+select option:hover {
+	padding-left: 25px;
+	width: 270px;
+	color: #EC6F66;
+}

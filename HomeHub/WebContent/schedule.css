@@ -1,0 +1,291 @@
+@charset "UTF-8";
+#logo{
+    height: 20%;
+    width: 20%;
+    float: left;
+    margin-left: 35%;  
+}
+#logOut {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #FAB016; 
+    width: 200px;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    height:50px;
+    cursor: pointer;
+}
+}
+body {
+  margin: 0;
+  min-width: 250px;
+}
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Set all odd list items to a different color (zebra-stripes) */
+/*ul li:nth-child(odd) {
+  background: #f9f9f9;
+}*/
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #FAB016;
+  color: #fff;
+  text-decoration: line-through;
+}
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+/* Style the header */
+.header {
+  padding: 30px 40px;
+  color: black;
+  text-align: center;
+}
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+#chores{
+    float: left;
+    margin-left: 2%; 
+    margin-top: -3%;
+    font-family: Roboto; 
+    font-size: 25px;  
+}
+.allProfileContents{
+}
+.calendarContents{
+    float: left;
+    width: 50%;
+}
+#UpcomingEvents{
+    float: left;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 30%;
+    color: black;
+    font-family: Roboto;
+    font-size: 2.0em;   
+    text-decoration: none;
+}
+#outerDivWithBorder{
+    float: left;
+    border-style: solid;
+    height:250px; 
+    width: 100%;
+    margin-left: 15%;
+    overflow: auto;
+}
+.tableDiv{
+    float: left;
+    width: 100%;
+    border-bottom: solid;
+}
+#DateDiv{
+    float: left;
+    color: black;
+    font-family: Roboto;
+    margin-left: 1%;
+    font-size: 1.5em;   
+}
+#TimeDiv{
+    float: left;
+    color: black;
+    font-family: Roboto;
+    margin-left: 25%;
+    font-size: 1.5em;   
+}
+#EventSummaryTable{
+    float: left;
+    color: black;
+    font-family: Roboto;
+    margin-left: 20%;
+    font-size: 1.5em;   
+}
+#UpcomingTasks{
+    float: left;
+    color: black;
+    font-family: Roboto;
+    font-size: 1.4em;  
+}
+#otherInfo{
+    float: left;
+    margin-top: 25%; 
+    margin-left: -42.5%;           
+}
+#newTasks{
+    float: left;
+    margin-top: 8%; 
+    margin-left: -76%;         
+    color: black;
+    font-family: Roboto;
+    font-size: 1.2em;        
+}
+$off_white:#fafafa;
+$light_grey:#A39D9E;
+*{
+  box-sizing:border-box;
+}
+body{
+  background-color: $off_white;
+}
+.container{
+  /* margin:100px auto;
+  width:809px; */
+  height: 300px;    
+  overflow: scroll;
+  float: right;
+/*   margin-left: 30%; 
+ */}
+.light{
+  background-color: #fff;
+}
+.dark{
+  margin-left: 65px;
+}
+.calendar{
+  width:370px;
+  box-shadow: 0px 0px 35px -16px rgba(0,0,0,0.75);
+  font-family: 'Roboto', sans-serif;
+  padding: 20px 30px;
+  color:#363b41;
+  display: inline-block;
+}
+.calendar_header{
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+}
+.header_copy{
+  color:$light_grey;
+  font-size:20px;
+}
+.calendar_plan{
+  margin:20px 0 40px;
+}
+.cl_plan{
+  width:80%; 
+  height: 140px;
+  background-image: linear-gradient(-222deg, #FAB016, #ff9f80);
+  box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75);
+  padding:30px;
+  color:#fff;
+}
+.cl_title{
+  
+}
+.cl_copy{
+  font-size:20px;
+  margin: 20px 0;
+  display: inline-block;
+}
+.cl_add{
+  display: inline-block;
+  width: 40px;
+  height:40px;
+  border-radius:50%;
+  background-color: #fff;
+/*   cursor: pointer;
+ */  margin:0 0 0 65px;
+  color:black;
+  padding: 10px 12px;      
+}
+.calendar_events{
+  color:$light_grey;
+}
+.ce_title{
+  font-size:14px;
+}
+.event_item{
+  margin: 18px 0;
+  padding:5px;
+  cursor: pointer;
+  &:hover{
+    background-image: linear-gradient(-222deg, #FF8494, #ffa9b7);
+    box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75);
+    .ei_Dot{
+      background-color: #fff;
+    }
+    .ei_Copy,.ei_Title{
+      color:#fff;
+    }
+  }
+}
+.ei_Dot,.ei_Title{
+  display:inline-block;
+}
+.ei_Dot{
+  border-radius:50%;
+  width:10px;
+  height: 10px;
+  background-color: $light_grey;
+  box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75);
+}
+.dot_active{
+  background-color: #FAB016; 
+}
+.ei_Title{
+  margin-left:10px;
+  color:#363b41;
+}
+.ei_Copy{
+  font-size:12px;
+  margin-left:27px;
+}
+.dark{
+  background-image: linear-gradient(-222deg, #646464, #454545);
+  color:#fff;
+  .header_title,.ei_Title,.ce_title{
+    color:#fff;
+  }
+}

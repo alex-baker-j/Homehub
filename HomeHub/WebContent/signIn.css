@@ -1,0 +1,57 @@
+#description{
+    margin-left: 17%;     
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;  
+}
+#happyHousemates {
+    margin-left: 27%;
+    height: 300px;
+}
+#homehub {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.g-signin2 {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}
+#guest {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #87C23F;
+    width: 200px;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    height:50px;
+    cursor: pointer;
+}
+#logOutButton {
+    display: block;
+    margin-left: 70%;   
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #FAB016; 
+    width: 200px;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    height:50px;
+    cursor: pointer;
+}
+}
+body {
+    padding: 20px;
+}
